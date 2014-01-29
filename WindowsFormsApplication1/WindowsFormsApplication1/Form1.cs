@@ -15,8 +15,14 @@ namespace WindowsFormsApplication1
         public Form1()
         {
             InitializeComponent();
+            Form2 f = new Form2(this);
+            textBox1.Text = f.q;
         }
-
+        public void goback(string a)
+        {
+            webBrowser1.Navigate(a);
+            textBox1.Text = a;
+        }
         private void textBox1_KeyDown(object sender, KeyEventArgs e)
         {
             if (e.KeyCode.ToString() == "return");
@@ -55,6 +61,17 @@ namespace WindowsFormsApplication1
         private void button4_Click(object sender, EventArgs e)
         {
             webBrowser1.GoBack();
+        }
+
+        private void історіяToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form2 f = new Form2(this);
+            f.Show();
+        }
+
+        private void налаштуванняToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

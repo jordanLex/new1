@@ -161,12 +161,14 @@
             this.історіяToolStripMenuItem.Name = "історіяToolStripMenuItem";
             this.історіяToolStripMenuItem.Size = new System.Drawing.Size(156, 22);
             this.історіяToolStripMenuItem.Text = "Історія";
+            this.історіяToolStripMenuItem.Click += new System.EventHandler(this.історіяToolStripMenuItem_Click);
             // 
             // налаштуванняToolStripMenuItem
             // 
             this.налаштуванняToolStripMenuItem.Name = "налаштуванняToolStripMenuItem";
             this.налаштуванняToolStripMenuItem.Size = new System.Drawing.Size(156, 22);
             this.налаштуванняToolStripMenuItem.Text = "Налаштування";
+            this.налаштуванняToolStripMenuItem.Click += new System.EventHandler(this.налаштуванняToolStripMenuItem_Click);
             // 
             // оПрограмеToolStripMenuItem
             // 
