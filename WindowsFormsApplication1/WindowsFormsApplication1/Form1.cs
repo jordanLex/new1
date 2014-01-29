@@ -35,6 +35,7 @@ namespace WindowsFormsApplication1
 
         private void button1_Click(object sender, EventArgs e)
         {
+            
             WebBrowser browser = new WebBrowser();
             tabs.TabPages.Add("Новая вкладка ");
             tabs.SelectTab(i - 1);
