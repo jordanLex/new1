@@ -17,6 +17,8 @@ namespace WindowsFormsApplication1
             InitializeComponent();
             Form2 f = new Form2(this);
             textBox1.Text = f.q;
+            Form3 f1 = new Form3(this);
+            textBox1.Text = f1.q;
         }
         public void goback(string a)
         {
@@ -73,6 +75,62 @@ namespace WindowsFormsApplication1
         {
             Form4 f = new Form4();
             f.Show();
+        }
+
+        private void файлToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void улюбленеToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form3 f = new Form3(this);
+            f.Show();
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            System.IO.StreamWriter sw;
+            System.IO.FileInfo fi = new System.IO.FileInfo("namef.txt");
+            sw = fi.AppendText();
+            sw.WriteLine(textBox1.Text);
+            sw.Close();
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox2_KeyDown(object sender, KeyEventArgs e)
+        {
+            System.IO.StreamReader streamReader = new System.IO.StreamReader("nastr.txt");
+            if (e.KeyCode == Keys.Enter)
+            {
+                string s = streamReader.ReadLine();
+
+                if (s == "yandex.ru")
+                {
+                    webBrowser1.Navigate(@"https://yandex.ua/yandsearch?lr=143&text=" + textBox2.Text);
+                }
+
+
+                if (s == "google.ru")
+                {
+                    webBrowser1.Navigate(@"https://www.google.com.ua/search?q=" + textBox2.Text);
+                }
+
+
+            }
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            System.IO.StreamReader streamReader = new System.IO.StreamReader("nastr.txt");
+
+
+            for (int i = 1; i < 3; i++)
+                webBrowser1.Navigate(streamReader.ReadLine());
         }
     }
 }

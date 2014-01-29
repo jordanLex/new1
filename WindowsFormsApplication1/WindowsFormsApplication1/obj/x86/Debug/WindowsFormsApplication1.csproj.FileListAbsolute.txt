@@ -15,3 +15,5 @@ C:\Users\В'ячеслав\Documents\GitHub\new1\WindowsFormsApplication1\Window
 C:\Users\В'ячеслав\Documents\GitHub\new1\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Form2.resources
 C:\Users\Дмитро\Documents\GitHub\new1\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Form2.resources
 C:\Users\В'ячеслав\Documents\GitHub\new1\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Form4.resources
+C:\Users\Дмитро\Documents\GitHub\new1\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Form3.resources
+C:\Users\Дмитро\Documents\GitHub\new1\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Form4.resources

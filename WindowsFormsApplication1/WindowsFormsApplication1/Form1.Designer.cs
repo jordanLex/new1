@@ -43,6 +43,9 @@
             this.налаштуванняToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.оПрограмеToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.оНасToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.улюбленеToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.button5 = new System.Windows.Forms.Button();
+            this.textBox2 = new System.Windows.Forms.TextBox();
             this.tabs.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.menuStrip1.SuspendLayout();
@@ -151,10 +154,12 @@
             // 
             this.файлToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.історіяToolStripMenuItem,
-            this.налаштуванняToolStripMenuItem});
+            this.налаштуванняToolStripMenuItem,
+            this.улюбленеToolStripMenuItem});
             this.файлToolStripMenuItem.Name = "файлToolStripMenuItem";
             this.файлToolStripMenuItem.Size = new System.Drawing.Size(48, 20);
             this.файлToolStripMenuItem.Text = "Файл";
+            this.файлToolStripMenuItem.Click += new System.EventHandler(this.файлToolStripMenuItem_Click);
             // 
             // історіяToolStripMenuItem
             // 
@@ -182,11 +187,38 @@
             this.оНасToolStripMenuItem.Size = new System.Drawing.Size(50, 20);
             this.оНасToolStripMenuItem.Text = "О нас";
             // 
+            // улюбленеToolStripMenuItem
+            // 
+            this.улюбленеToolStripMenuItem.Name = "улюбленеToolStripMenuItem";
+            this.улюбленеToolStripMenuItem.Size = new System.Drawing.Size(156, 22);
+            this.улюбленеToolStripMenuItem.Text = "Улюблене";
+            this.улюбленеToolStripMenuItem.Click += new System.EventHandler(this.улюбленеToolStripMenuItem_Click);
+            // 
+            // button5
+            // 
+            this.button5.Location = new System.Drawing.Point(301, 27);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(127, 23);
+            this.button5.TabIndex = 7;
+            this.button5.Text = "add to favorite";
+            this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
+            // 
+            // textBox2
+            // 
+            this.textBox2.Location = new System.Drawing.Point(127, 53);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(100, 20);
+            this.textBox2.TabIndex = 8;
+            this.textBox2.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBox2_KeyDown);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(440, 351);
+            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.button5);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
@@ -197,6 +229,7 @@
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.tabs.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
             this.menuStrip1.ResumeLayout(false);
@@ -223,6 +256,9 @@
         private System.Windows.Forms.ToolStripMenuItem налаштуванняToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem оПрограмеToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem оНасToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem улюбленеToolStripMenuItem;
+        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.TextBox textBox2;
     }
 }
 
