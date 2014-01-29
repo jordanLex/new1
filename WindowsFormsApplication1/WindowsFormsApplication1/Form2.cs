@@ -21,12 +21,7 @@ namespace WindowsFormsApplication1
 
         private void Form2_Load(object sender, EventArgs e)
         {
-            System.IO.StreamReader streamReader = new System.IO.StreamReader("name.txt");
-
-            while (!streamReader.EndOfStream)
-            {
-                listBox1.Items.Add(streamReader.ReadLine());
-            }
+           
         }
 
         private void listBox1_MouseDoubleClick(object sender, MouseEventArgs e)
@@ -34,6 +29,16 @@ namespace WindowsFormsApplication1
             q = listBox1.Items[listBox1.SelectedIndex].ToString();
             parent.goback(q);
             this.Close();
+        }
+
+        private void Form2_Load_1(object sender, EventArgs e)
+        {
+            System.IO.StreamReader streamReader = new System.IO.StreamReader("name.txt");
+
+            while (!streamReader.EndOfStream)
+            {
+                listBox1.Items.Add(streamReader.ReadLine());
+            }
         }
 
     }
