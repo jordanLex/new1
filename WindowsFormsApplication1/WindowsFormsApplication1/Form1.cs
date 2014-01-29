@@ -71,7 +71,8 @@ namespace WindowsFormsApplication1
 
         private void налаштуванняToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
+            Form4 f = new Form4();
+            f.Show();
         }
     }
 }
