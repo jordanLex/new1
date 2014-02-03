@@ -41,9 +41,9 @@
             this.файлToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.історіяToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.налаштуванняToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.улюбленеToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.оПрограмеToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.оНасToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.улюбленеToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.button5 = new System.Windows.Forms.Button();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.tabs.SuspendLayout();
@@ -117,6 +117,7 @@
             this.button2.TabIndex = 3;
             this.button2.Text = "x";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button3
             // 
@@ -175,6 +176,13 @@
             this.налаштуванняToolStripMenuItem.Text = "Налаштування";
             this.налаштуванняToolStripMenuItem.Click += new System.EventHandler(this.налаштуванняToolStripMenuItem_Click);
             // 
+            // улюбленеToolStripMenuItem
+            // 
+            this.улюбленеToolStripMenuItem.Name = "улюбленеToolStripMenuItem";
+            this.улюбленеToolStripMenuItem.Size = new System.Drawing.Size(156, 22);
+            this.улюбленеToolStripMenuItem.Text = "Улюблене";
+            this.улюбленеToolStripMenuItem.Click += new System.EventHandler(this.улюбленеToolStripMenuItem_Click);
+            // 
             // оПрограмеToolStripMenuItem
             // 
             this.оПрограмеToolStripMenuItem.Name = "оПрограмеToolStripMenuItem";
@@ -186,13 +194,6 @@
             this.оНасToolStripMenuItem.Name = "оНасToolStripMenuItem";
             this.оНасToolStripMenuItem.Size = new System.Drawing.Size(50, 20);
             this.оНасToolStripMenuItem.Text = "О нас";
-            // 
-            // улюбленеToolStripMenuItem
-            // 
-            this.улюбленеToolStripMenuItem.Name = "улюбленеToolStripMenuItem";
-            this.улюбленеToolStripMenuItem.Size = new System.Drawing.Size(156, 22);
-            this.улюбленеToolStripMenuItem.Text = "Улюблене";
-            this.улюбленеToolStripMenuItem.Click += new System.EventHandler(this.улюбленеToolStripMenuItem_Click);
             // 
             // button5
             // 

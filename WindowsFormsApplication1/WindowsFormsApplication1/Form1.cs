@@ -132,5 +132,13 @@ namespace WindowsFormsApplication1
             for (int i = 1; i < 3; i++)
                 webBrowser1.Navigate(streamReader.ReadLine());
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            if (i > 2)
+            {
+                tabs.SelectedTab.Dispose();
+            }
+        }
     }
 }
