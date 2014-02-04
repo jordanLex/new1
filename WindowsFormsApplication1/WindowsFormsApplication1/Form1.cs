@@ -140,5 +140,25 @@ namespace WindowsFormsApplication1
                 tabs.SelectedTab.Dispose();
             }
         }
+
+        private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void webBrowser1_DocumentCompleted(object sender, WebBrowserDocumentCompletedEventArgs e)
+        {
+
+        }
+
+        private void button6_Click_1(object sender, EventArgs e)
+        {
+            webBrowser1.Refresh();
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            webBrowser1.Stop();
+        }
     }
 }
