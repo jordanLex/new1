@@ -34,9 +34,9 @@
             // listBox1
             // 
             this.listBox1.FormattingEnabled = true;
-            this.listBox1.Location = new System.Drawing.Point(12, 6);
+            this.listBox1.Location = new System.Drawing.Point(12, 8);
             this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(220, 251);
+            this.listBox1.Size = new System.Drawing.Size(219, 238);
             this.listBox1.TabIndex = 0;
             this.listBox1.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.listBox1_MouseDoubleClick);
             // 
@@ -44,8 +44,10 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(249, 269);
+            this.ClientSize = new System.Drawing.Size(243, 254);
             this.Controls.Add(this.listBox1);
+            this.MaximumSize = new System.Drawing.Size(259, 292);
+            this.MinimumSize = new System.Drawing.Size(259, 292);
             this.Name = "Form2";
             this.Text = "History";
             this.Load += new System.EventHandler(this.Form2_Load_1);

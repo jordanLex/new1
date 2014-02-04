@@ -82,12 +82,14 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(260, 104);
+            this.ClientSize = new System.Drawing.Size(264, 102);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.textBox1);
+            this.MaximumSize = new System.Drawing.Size(280, 140);
+            this.MinimumSize = new System.Drawing.Size(280, 140);
             this.Name = "Form4";
             this.Text = "Settings";
             this.Load += new System.EventHandler(this.Form4_Load);

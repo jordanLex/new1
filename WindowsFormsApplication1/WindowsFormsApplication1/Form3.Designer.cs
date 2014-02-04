@@ -44,8 +44,12 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(230, 245);
+            this.ClientSize = new System.Drawing.Size(243, 254);
             this.Controls.Add(this.listBox1);
+            this.MaximizeBox = false;
+            this.MaximumSize = new System.Drawing.Size(259, 292);
+            this.MinimizeBox = false;
+            this.MinimumSize = new System.Drawing.Size(259, 292);
             this.Name = "Form3";
             this.Text = "Favorites";
             this.Load += new System.EventHandler(this.Form3_Load);
