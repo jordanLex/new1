@@ -70,7 +70,7 @@
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage1.Size = new System.Drawing.Size(607, 289);
             this.tabPage1.TabIndex = 0;
-            this.tabPage1.Text = "tabPage1";
+            this.tabPage1.Text = "Start Page";
             this.tabPage1.UseVisualStyleBackColor = true;
             // 
             // webBrowser1
@@ -114,13 +114,14 @@
             // 
             // button3
             // 
+            this.button3.BackColor = System.Drawing.SystemColors.Control;
             this.button3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button3.BackgroundImage")));
             this.button3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button3.Location = new System.Drawing.Point(12, 24);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(34, 34);
             this.button3.TabIndex = 4;
-            this.button3.UseVisualStyleBackColor = true;
+            this.button3.UseVisualStyleBackColor = false;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button4
@@ -224,6 +225,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.Control;
             this.ClientSize = new System.Drawing.Size(639, 396);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.textBox2);
@@ -237,7 +239,7 @@
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Darksider";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.tabs.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);

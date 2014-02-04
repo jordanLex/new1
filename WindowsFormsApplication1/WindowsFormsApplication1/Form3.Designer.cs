@@ -34,9 +34,9 @@
             // listBox1
             // 
             this.listBox1.FormattingEnabled = true;
-            this.listBox1.Location = new System.Drawing.Point(24, 24);
+            this.listBox1.Location = new System.Drawing.Point(12, 11);
             this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(230, 212);
+            this.listBox1.Size = new System.Drawing.Size(212, 225);
             this.listBox1.TabIndex = 0;
             this.listBox1.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.listBox1_MouseDoubleClick);
             // 
@@ -44,10 +44,10 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(284, 261);
+            this.ClientSize = new System.Drawing.Size(230, 245);
             this.Controls.Add(this.listBox1);
             this.Name = "Form3";
-            this.Text = "Form3";
+            this.Text = "Favorites";
             this.Load += new System.EventHandler(this.Form3_Load);
             this.ResumeLayout(false);
 
