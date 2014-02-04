@@ -55,11 +55,14 @@
             // 
             // tabs
             // 
+            this.tabs.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+                        | System.Windows.Forms.AnchorStyles.Left)
+                        | System.Windows.Forms.AnchorStyles.Right)));
             this.tabs.Controls.Add(this.tabPage1);
             this.tabs.Location = new System.Drawing.Point(12, 79);
             this.tabs.Name = "tabs";
             this.tabs.SelectedIndex = 0;
-            this.tabs.Size = new System.Drawing.Size(615, 315);
+            this.tabs.Size = new System.Drawing.Size(680, 281);
             this.tabs.TabIndex = 0;
             // 
             // tabPage1
@@ -68,7 +71,7 @@
             this.tabPage1.Location = new System.Drawing.Point(4, 22);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(607, 289);
+            this.tabPage1.Size = new System.Drawing.Size(672, 255);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Start Page";
             this.tabPage1.UseVisualStyleBackColor = true;
@@ -79,7 +82,7 @@
             this.webBrowser1.Location = new System.Drawing.Point(3, 3);
             this.webBrowser1.MinimumSize = new System.Drawing.Size(20, 20);
             this.webBrowser1.Name = "webBrowser1";
-            this.webBrowser1.Size = new System.Drawing.Size(601, 283);
+            this.webBrowser1.Size = new System.Drawing.Size(666, 249);
             this.webBrowser1.TabIndex = 0;
             // 
             // textBox1
@@ -143,7 +146,7 @@
             this.оНасToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(639, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(704, 24);
             this.menuStrip1.TabIndex = 6;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -226,7 +229,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
-            this.ClientSize = new System.Drawing.Size(639, 396);
+            this.ClientSize = new System.Drawing.Size(704, 362);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.button5);
@@ -238,6 +241,7 @@
             this.Controls.Add(this.tabs);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
+            this.MinimumSize = new System.Drawing.Size(720, 320);
             this.Name = "Form1";
             this.Text = "Darksider";
             this.Load += new System.EventHandler(this.Form1_Load);
